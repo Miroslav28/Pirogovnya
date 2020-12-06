@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet/less" href="css/simplebar.css">
+    <link rel="stylesheet/less" href="src/styles/main.less">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet/less" href="src/styles/adaptiv.less">
+    <script src="src/styles/less.js"></script>
+</head>
+<body>
+
+<div id="header">
+    <div id="header-container">
+        <div class="fixed-full-logo">
+            <div class="logo">
+                <a href="#" class="logo-img">
+                    <img src="images/logo.png" alt="">
+                    <a href="#" class="logo-title" class="logo-title">Bakery</a>
+                </a>
+            </div>
+            <div class="menu">
+                <a href="#">Пироги</a>
+                <a href="#">О нас</a>
+                <a href="#">Оформить заказ</a>
+                <a href="#">Контакты</a>
+            </div>
+            <div class="number-order">
+                <div class="number">+375 (29) 368-98-68</div>
+                <a href="#" class="order">
+                    <img src="images/header-big-circle.png" alt="" class="order-big-circle">
+                    <img src="images/header-middle-circle.png" alt="" class="order-middle-circle">
+                    <img src="images/header-small-circle.png" alt="" class="order-small-circle">
+                    <div class="order-text">Заказать звонок</div>
+                </a>
+            </div>
+        </div>
+        <div id="choose">
+            <div id="choose-title">Домашние пироги прямо из печи</div>
+            <div id="choose-text">Побалуйте себя и своих близких самыми вкусными и ароматными домашними пирогами прямо из печи!</div>
+            <div id="choose-button">
+                <a href="#" class="hvr-pulse">Выбрать пирог</a>
+            </div>
+            <img src="images/pirog.png" alt="" class="choose-pirog">
+            <img src="images/doska-pirog.png" alt="" class="choose-doska-pirog">
+            <img src="images/choose-smoke-1.png" alt="" class="choose-smoke-up">
+            <img src="images/choose-smoke-down.png" alt="" class="choose-smoke-down">
+        </div>
+        </div>
+    </div>
+</div>
+
+<div id="info">
+    <div id="info-container" class="wow animate__bounceInRight">
+        <div id="info-title">
+            Мы печём для вас вкуснейшие пироги уже более 10 лет
+        </div>
+        <div id="info-text">Все пироги мы готовим только из натуральных и качественных продуктов, без консервантов, ароматизаторов, красителей. Используем в приготовлении песочно-творожное тесто на сливочном масле 82,5%, без дрожжей, маргарина, разрыхлителей и улучшителей муки. Начинки мы готовим по семейным рецептам, но всегда ищем новые вкусы и оригинальные сочетания.</div>
+        <div id="pluses">
+            <div class="plus-block">
+                <div class="plus-img-number">
+                    <img src="images/plus-circle.png" alt="" id="circle-first">
+                    <div class="plus-number plus-number-1">1</div>
+                </div>
+                <div class="plus-title plus-title-1">Лучшие продукты</div>
+                <div class="plus-text plus-text-1">Мы честно готовим пироги только из натуральных и качественных продуктов. Мы не используем консерванты, ароматизаторы и красители.</div>
+            </div>
+            <div class="plus-block">
+                <div class="plus-img-number">
+                    <img src="images/plus-circle.png" alt="" id="circle-second">
+                    <div class="plus-number plus-number-2">2</div>
+                </div>
+                <div class="plus-title plus-title-2">Много начинки</div>
+                <div class="plus-text plus-text-2">Наша задача – накормить вас вкусным и полезным продуктом. Вы удивитесь, но объем начинки в наших пирогах составляет
+                    70% от общего веса.
+                </div>
+            </div>
+            <div class="plus-block">
+                <div class="plus-img-number">
+                    <img src="images/plus-circle.png" alt="" id="circle-third">
+                    <div class="plus-number plus-number-3">3</div>
+                </div>
+                <div class="plus-title plus-title-3">Бездрожжевое тесто</div>
+                <div class="plus-text plus-text-3">Все пироги готовятся на песочно-творожном тесте с качественным сливочным маслом 82,5%. В составе нет маргарина и дрожжей!</div>
+            </div>
+            <div class="plus-block">
+                <div class="plus-img-number">
+                    <img src="images/plus-circle.png" alt="" id="circle-fourth">
+                    <div class="plus-number plus-number-4">4</div>
+                </div>
+                <div class="plus-title plus-title-4">Честный продукт</div>
+                <div class="plus-text plus-text-4">Вкус, качество и безопасность наших пирогов подтверждена декларацией о соответствии, которую мы получили 22.06.2016 г.</div>
+            </div>
+        </div>
+        <div id="info-big-b">B</div>
+        <img src="images/chef.png" alt="" id="chef">
+    </div>
+</div>
+
+<div id="choice">
+    <div id="choice-container">
+        <div id="choice-title">
+            Выберите свой пирог
+        </div>
+        <div class="category-container">
+            <div class="category active" data-id="pirog-berry">Ягодные</div>
+            <div class="category" data-id="pirog-fruit">Фруктовые</div>
+            <div class="category" data-id="pirog-meat">Мясные</div>
+            <div class="category" data-id="pirog-fish">Рыбные</div>
+        </div>
+        <div class="pirogs-menu" id="pirog-berry">
+            <div class="pirog-block wow animate__bounceInLeft">
+                <div class="pirog-img">
+                    <img src="images/pirog-1.png" alt="">
+                </div>
+                <div class="pirog-title">Пирог с малиной</div>
+                <div class="pirog-price-button">
+                    <div class="pirog-weight-count">
+                        <div class="pirog-weight">1 кг</div>
+                        <div class="pirog-price">21,80 руб.</div>
+                    </div>
+                    <div class="pirog-button">
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pirog-block wow animate__bounceInUp">
+                <div class="pirog-img">
+                    <img src="images/pirog-2.png" alt="">
+                </div>
+                <div class="pirog-title">Пирог с клубникой</div>
+                <div class="pirog-price-button">
+                    <div class="pirog-weight-count">
+                        <div class="pirog-weight">1 кг</div>
+                        <div class="pirog-price">15,50 руб.</div>
+                    </div>
+                    <div class="pirog-button">
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pirog-block wow animate__bounceInDown">
+                <div class="pirog-img">
+                    <img src="images/pirog-3.png" alt="">
+                </div>
+                <div class="pirog-title">Пирог с орехом и вишней</div>
+                <div class="pirog-price-button">
+                    <div class="pirog-weight-count">
+                        <div class="pirog-weight">1 кг</div>
+                        <div class="pirog-price">18,00 руб.</div>
+                    </div>
+                    <div class="pirog-button">
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pirog-block wow animate__bounceInRight">
+                <div class="pirog-img">
+                    <img src="images/pirog-4.png" alt="">
+                </div>
+                <div class="pirog-title">Пирог с черникой</div>
+                <div class="pirog-price-button">
+                    <div class="pirog-weight-count">
+                        <div class="pirog-weight">1 кг</div>
+                        <div class="pirog-price">23,20 руб.</div>
+                    </div>
+                    <div class="pirog-button order-pirog">
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pirogs-menu" id="pirog-fruit">
+            <div class="pirog-block">
+                <div class="pirog-img">
+                    <img src="images/pirog-1.png" alt="">
+                </div>
+                <div class="pirog-title">Пирог с малиной</div>
+                <div class="pirog-price-button">
+                    <div class="pirog-weight-count">
+                        <div class="pirog-weight">1 кг</div>
+                        <div class="pirog-price">21,80 руб.</div>
+                    </div>
+                    <div class="pirog-button">
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pirog-block">
+                <div class="pirog-img">
+                    <img src="images/pirog-2.png" alt="">
+                </div>
+                <div class="pirog-title">Пирог с клубникой</div>
+                <div class="pirog-price-button">
+                    <div class="pirog-weight-count">
+                        <div class="pirog-weight">1 кг</div>
+                        <div class="pirog-price">15,50 руб.</div>
+                    </div>
+                    <div class="pirog-button">
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pirog-block">
+                <div class="pirog-img">
+                    <img src="images/pirog-3.png" alt="">
+                </div>
+                <div class="pirog-title">Пирог с орехом и вишней</div>
+                <div class="pirog-price-button">
+                    <div class="pirog-weight-count">
+                        <div class="pirog-weight">1 кг</div>
+                        <div class="pirog-price">18,00 руб.</div>
+                    </div>
+                    <div class="pirog-button">
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pirog-block">
+                <div class="pirog-img">
+                    <img src="images/pirog-4.png" alt="">
+                </div>
+                <div class="pirog-title">Пирог с черникой</div>
+                <div class="pirog-price-button">
+                    <div class="pirog-weight-count">
+                        <div class="pirog-weight">1 кг</div>
+                        <div class="pirog-price">23,20 руб.</div>
+                    </div>
+                    <div class="pirog-button order-pirog">
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pirogs-menu" id="pirog-meat">
+            <div class="pirog-block">
+                <div class="pirog-img">
+                    <img src="images/pirog-1.png" alt="">
+                </div>
+                <div class="pirog-title">Пирог с малиной</div>
+                <div class="pirog-price-button">
+                    <div class="pirog-weight-count">
+                        <div class="pirog-weight">1 кг</div>
+                        <div class="pirog-price">21,80 руб.</div>
+                    </div>
+                    <div class="pirog-button">
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pirog-block">
+                <div class="pirog-img">
+                    <img src="images/pirog-2.png" alt="">
+                </div>
+                <div class="pirog-title">Пирог с клубникой</div>
+                <div class="pirog-price-button">
+                    <div class="pirog-weight-count">
+                        <div class="pirog-weight">1 кг</div>
+                        <div class="pirog-price">15,50 руб.</div>
+                    </div>
+                    <div class="pirog-button">
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pirog-block">
+                <div class="pirog-img">
+                    <img src="images/pirog-3.png" alt="">
+                </div>
+                <div class="pirog-title">Пирог с орехом и вишней</div>
+                <div class="pirog-price-button">
+                    <div class="pirog-weight-count">
+                        <div class="pirog-weight">1 кг</div>
+                        <div class="pirog-price">18,00 руб.</div>
+                    </div>
+                    <div class="pirog-button">
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pirog-block">
+                <div class="pirog-img">
+                    <img src="images/pirog-4.png" alt="">
+                </div>
+                <div class="pirog-title">Пирог с черникой</div>
+                <div class="pirog-price-button">
+                    <div class="pirog-weight-count">
+                        <div class="pirog-weight">1 кг</div>
+                        <div class="pirog-price">23,20 руб.</div>
+                    </div>
+                    <div class="pirog-button order-pirog">
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pirogs-menu" id="pirog-fish">
+            <div class="pirog-block">
+                <div class="pirog-img">
+                    <img src="images/pirog-1.png" alt="">
+                </div>
+                <div class="pirog-title">Пирог с малиной</div>
+                <div class="pirog-price-button">
+                    <div class="pirog-weight-count">
+                        <div class="pirog-weight">1 кг</div>
+                        <div class="pirog-price">21,80 руб.</div>
+                    </div>
+                    <div class="pirog-button">
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pirog-block">
+                <div class="pirog-img">
+                    <img src="images/pirog-2.png" alt="">
+                </div>
+                <div class="pirog-title">Пирог с клубникой</div>
+                <div class="pirog-price-button">
+                    <div class="pirog-weight-count">
+                        <div class="pirog-weight">1 кг</div>
+                        <div class="pirog-price">15,50 руб.</div>
+                    </div>
+                    <div class="pirog-button">
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pirog-block">
+                <div class="pirog-img">
+                    <img src="images/pirog-3.png" alt="">
+                </div>
+                <div class="pirog-title">Пирог с орехом и вишней</div>
+                <div class="pirog-price-button">
+                    <div class="pirog-weight-count">
+                        <div class="pirog-weight">1 кг</div>
+                        <div class="pirog-price">18,00 руб.</div>
+                    </div>
+                    <div class="pirog-button">
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pirog-block">
+                <div class="pirog-img">
+                    <img src="images/pirog-4.png" alt="">
+                </div>
+                <div class="pirog-title">Пирог с черникой</div>
+                <div class="pirog-price-button">
+                    <div class="pirog-weight-count">
+                        <div class="pirog-weight">1 кг</div>
+                        <div class="pirog-price">23,20 руб.</div>
+                    </div>
+                    <div class="pirog-button order-pirog">
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="order">
+    <div id="order-container" class="wow animate__bounceInRight">
+        <div id="big-pirog">
+            <img src="images/big-pirog.png" alt="">
+        </div>
+        <div id="big-berrie">
+            <img src="images/big-berrie.png" alt="">
+        </div>
+        <div id="middle-berrie">
+            <img src="images/middle-berrie.png" alt="">
+        </div>
+        <div id="small-berrie">
+            <img src="images/small-berrie.png" alt="">
+        </div>
+        <div id="order-menu">
+            <div id="order-title">Закажите пирог</div>
+            <div id="order-text">Выберите понравившийся пирог, заполните форму и ожидайте звонка нашего пекаря!</div>
+            <div class="order-button-text order-button-text-1">Ваш выбор</div>
+            <div class="order-button">
+                <div class="select is-active">
+                    <div class="select__header">
+                        <span class="select__current">Ваш заказ</span>
+                    </div>
+                    <div class="fill-line fill-line-1">
+                        Заполните поле 'Ваш заказ'
+                    </div>
+
+                    <div data-simplebar class="select__body">
+                        <div class="select__item">Пирог с малиной</div>
+                        <div class="select__item">Пирог с клубникой</div>
+                        <div class="select__item">Пирог с орехом и вишней</div>
+                        <div class="select__item">Пирог с черникой</div>
+                    </div>
+                </div>
+            </div>
+            <div class="order-button-text order-button-text-2">Заполните данные для заказа</div>
+            <div class="order-button">
+                <input type="text" placeholder="Ваше Имя" id="">
+                <div class="fill-line fill-line-1">
+                    Заполните поле 'Ваш заказ'
+                </div>
+            </div>
+            <div class="order-button order-button-2">
+                <input type="text" placeholder="+375 (__) ___-__-__ ">
+            </div>
+            <div class="pirog-button order-from-button">
+                <button>Оформить заказ</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-left wow animate__bounceInLeft">
+            <div class="logo">
+                <a href="#" class="logo-img">
+                    <img src="images/logo.png" alt="">
+                    <a href="#" class="logo-title">Bakery</a>
+                </a>
+            </div>
+            <div class="permissons">Все права защищены, 2020</div>
+        </div>
+        <div class="footer-middle wow animate__bounceInUp">
+            <a href="https://instagram.com" target="_blank">
+                <div class="instagram-img">
+                    <img src="images/instagram.png" alt="">
+                </div>
+                <div class="instagram-text">Мы в Instagram</div>
+            </a>
+        </div>
+        <div class="footer-right wow animate__bounceInRight">
+            <div class="footer-number">+375 (29) 368-98-68</div>
+            <div class="footer-button">
+                <button>Заказать звонок</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW(
+        {
+            animateClass: 'animate__animated', // default
+        }
+    ).init();
+</script>
+<script src="js/simplebar.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
